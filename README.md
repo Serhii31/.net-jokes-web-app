@@ -9,16 +9,12 @@ git clone https://github.com/Serhii31/.net-jokes-web-app.git
 cd .net-jokes-web-app
 ```
 3. Install the latest versions of Docker and Docker-Compose
-4. Convert the file to use Unix-style line endings
+4. To start application execute the following command in PS:
 ```bash
-sed -i 's/\r$//' entrypoint.sh
+.\startup.ps1 entrypoint.sh
 ```
-5. To start application run the following command:
-```bash
-docker-compose up --build
-```
-6. To access application open localhost:8080
-7. To stop application run the following command:
+5. To access application open localhost:8080
+6. To stop application run the following command:
 ```bash
 docker-compose down
 ```
